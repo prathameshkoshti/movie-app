@@ -1,3 +1,18 @@
+# React Weather App
+
+I'm using OMDb APIs to fetch movies details in json format. 
+
+You have to login first to use the app. There are two types of login accounts are available having username as follows:
+- prathamesh
+- test
+
+After logging in you can search for movies through search bar and select a movie to view its details. 
+
+You can logout from the app by just clicking on the logout link.
+
+---
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,4 +81,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# movie-app

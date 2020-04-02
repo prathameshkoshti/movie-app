@@ -2,7 +2,7 @@ import React from 'react';
 
 class Movie extends React.Component {
     fetchMovieDetails = (movieId) => {
-        let url = `http://www.omdbapi.com/?i=${movieId}&apikey=32b7125b`
+        let url = `https://www.omdbapi.com/?i=${movieId}&apikey=32b7125b`
         this.props.displayMovieDetails(url);
     }
     render = () => {

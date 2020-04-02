@@ -9,7 +9,7 @@ class Searchbar extends Component {
 
     generateURL() {
         let searchKey = document.getElementById('search_input').value.trim();
-        let url = `http://www.omdbapi.com/?s=${searchKey}&apikey=32b7125b&type=movie`;
+        let url = `https://www.omdbapi.com/?s=${searchKey}&apikey=32b7125b&type=movie`;
         this.props.search(url, searchKey);
     }
 

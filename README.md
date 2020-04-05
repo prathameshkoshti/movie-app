@@ -1,4 +1,4 @@
-# React Weather App
+# React Movie DB App
 
 I'm using OMDb APIs to fetch movies details in json format. 
 
